@@ -1,4 +1,8 @@
 
+# USE AT YOUR OWN DISCRETION
+
+This fork is used specifically by Zigned (zigned.se) on the Scalingo 20 stack (scalingo.com). We are not maintaining this anymore than what we need for our app and we don't provide any support.
+
 # Fork me!
 
 [![Maintainers Wanted](https://img.shields.io/badge/maintainers-wanted-red.svg)](https://github.com/pickhardt/maintainers-wanted)
@@ -29,7 +33,7 @@ I'm sure the Heroku support will be happy to assist you with that.
 
 # What is it
 
-Custom buildpack that will install pdftk into /app/bin on Heroku. Supports **cedar-14**, **heroku-16**, **heroku-18**, **heroku-20**.
+Custom buildpack that will install pdftk into /app/bin on Scalingo. Supports **scalingo-20**.
 
 # Heroku-18
 Since GCJ was dropped, using:
